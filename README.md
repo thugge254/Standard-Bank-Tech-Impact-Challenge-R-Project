@@ -30,20 +30,13 @@ The Uganda FinScope 2018 survey revealed that 46% (8.5 million) of adults borrow
 
 ### Data Format
 
-|-|-|
-TransactionId IsDefaulted
-|-|-|
-TransactionId_925 0 
-|-|-|         
-TransactionId_1080   1    
-|-|-|
-TransactionId_2315   0      
-|-|-|
-TransactionId_1466   0       
-| -|-|
-TransactionId_337   1    
-| -|-|
-
+| TransactionId        | IsDefaulted |
+|----------------------|--------------|
+| TransactionId_925    | 0            |
+| TransactionId_1080   | 1            |
+| TransactionId_2315   | 0            |
+| TransactionId_1466   | 0            |
+| TransactionId_337    | 1            |
 
 **The target variable IsDefaulted is a binary classification label where:**
 
